@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: phoenix-crowdin\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
-"PO-Revision-Date: 2023-07-15 12:55\n"
+"PO-Revision-Date: 2023-07-15 14:42\n"
 
 msgid "can't be blank"
 msgstr "doit être rempli(e)"
@@ -101,3 +101,4 @@ msgstr "doit être supérieur ou égal à %{number}"
 
 msgid "must be equal to %{number}"
 msgstr "doit être égal à %{number}"
+
