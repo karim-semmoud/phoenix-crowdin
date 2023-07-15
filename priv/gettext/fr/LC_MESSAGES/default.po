@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: phoenix-crowdin\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
-"PO-Revision-Date: 2023-07-15 15:17\n"
+"PO-Revision-Date: 2023-07-15 15:30\n"
 
 #: lib/phoenix_crowdin_web/components/core_components.ex:474
 #, elixir-autogen, elixir-format
@@ -112,4 +112,5 @@ msgstr "Phoenix et Crowdin"
 #: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:42
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Guides & Docs"
-msgstr "Tutoriels &amp; Docs"
+msgstr "Tutoriels et Docs"
+
