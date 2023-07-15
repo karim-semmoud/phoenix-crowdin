@@ -22,57 +22,92 @@ msgstr ""
 msgid "close"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:59
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:20
 #, elixir-autogen, elixir-format
 msgid "Build rich, interactive web applications quickly, with less code and fewer moving parts. Join our growing community of developers using Phoenix to craft APIs, HTML5 apps and more, for fun or at scale."
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:129
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:90
 #, elixir-autogen, elixir-format
 msgid "Changelog"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:185
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:146
 #, elixir-autogen, elixir-format
 msgid "Chat on Libera IRC"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:215
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:176
 #, elixir-autogen, elixir-format
 msgid "Deploy your application"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:161
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:122
 #, elixir-autogen, elixir-format
 msgid "Discuss on the Elixir Forum"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:146
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:107
 #, elixir-autogen, elixir-format
 msgid "Follow on Twitter"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:81
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:42
 #, elixir-autogen, elixir-format
 msgid "Guides &amp; Docs"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:200
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:161
 #, elixir-autogen, elixir-format
 msgid "Join our Discord server"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:56
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:17
 #, elixir-autogen, elixir-format
 msgid "Peace of mind from prototype to production."
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:50
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:11
 #, elixir-autogen, elixir-format
 msgid "Phoenix Framework"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:99
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:60
 #, elixir-autogen, elixir-format
 msgid "Source Code"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:41
+#, elixir-autogen, elixir-format
+msgid "English"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:39
+#, elixir-autogen, elixir-format
+msgid "English Flag"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:58
+#, elixir-autogen, elixir-format
+msgid "French"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:56
+#, elixir-autogen, elixir-format
+msgid "French Flag"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:5
+#, elixir-autogen, elixir-format
+msgid "Homepage Logo"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Languages"
+msgstr ""
+
+#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:7
+#, elixir-autogen, elixir-format
+msgid "Phoenix Blog"
 msgstr ""
