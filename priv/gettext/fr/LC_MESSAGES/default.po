@@ -53,11 +53,6 @@ msgstr "Discuter sur le forum Elixir"
 msgid "Follow on Twitter"
 msgstr "Suivre sur Twitter"
 
-#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:42
-#, elixir-autogen, elixir-format
-msgid "Guides &amp; Docs"
-msgstr "Tutoriels &amp; Docs"
-
 #: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:161
 #, elixir-autogen, elixir-format
 msgid "Join our Discord server"
@@ -114,3 +109,7 @@ msgstr "Langues"
 msgid "Phoenix & Crowdin"
 msgstr "Phoenix et Crowdin"
 
+#: lib/phoenix_crowdin_web/controllers/page_html/home.html.heex:42
+#, elixir-autogen, elixir-format, fuzzy
+msgid "Guides & Docs"
+msgstr "Tutoriels &amp; Docs"
