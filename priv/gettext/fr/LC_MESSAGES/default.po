@@ -1,15 +1,16 @@
-## "msgid"s in this file come from POT (.pot) files.
-###
-### Do not add, change, or remove "msgid"s manually here as
-### they're tied to the ones in the corresponding POT file
-### (with the same domain).
-###
-### Use "mix gettext.extract --merge" or "mix gettext.merge"
-### to merge POT files into PO files.
 msgid ""
 msgstr ""
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: phoenix-crowdin\n"
+"X-Crowdin-Project-ID: 601541\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /master/priv/gettext/en/LC_MESSAGES/default.po\n"
+"X-Crowdin-File-ID: 55\n"
+"Project-Id-Version: phoenix-crowdin\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"PO-Revision-Date: 2023-07-15 11:30\n"
 
 #: lib/phoenix_crowdin_web/components/core_components.ex:474
 #, elixir-autogen, elixir-format
@@ -21,3 +22,4 @@ msgstr ""
 #, elixir-autogen, elixir-format
 msgid "close"
 msgstr ""
+
