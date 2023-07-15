@@ -8,6 +8,8 @@ defmodule PhoenixCrowdinWeb.Router do
     plug :put_root_layout, html: {PhoenixCrowdinWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+    plug PhoenixCrowdinWeb.Locale
+
   end
 
   pipeline :api do

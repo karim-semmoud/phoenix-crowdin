@@ -1,28 +1,69 @@
-<header class="px-4 sm:px-6 lg:px-8">
-  <div class="flex items-center justify-between border-b border-zinc-100 py-3 text-sm">
-    <div class="flex items-center gap-4">
-      <a href="/">
-        <img src={~p"/images/logo.svg"} width="36" />
+<header>
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href={~p"/"} class="flex items-center">
+        <img src={~p"/images/logo.svg"} class="h-8 mr-3" alt={gettext("Homepage Logo")} />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <%= gettext("Phoenix Blog") %>
+        </span>
       </a>
-      <p class="bg-brand/5 text-brand rounded-full px-2 font-medium leading-6">
-        v<%= Application.spec(:phoenix, :vsn) %>
-      </p>
+      <div class="flex items-center md:order-2">
+        <button
+          type="button"
+          data-dropdown-toggle="language-dropdown-menu"
+          class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"
+        >
+          <img
+            class="w-5 h-5 mr-2 rounded-full"
+            src={~p"/images/world.svg"}
+            width="36"
+            alt={gettext("Languages")}
+          />
+        </button>
+        <div
+          class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700"
+          id="language-dropdown-menu"
+        >
+          <ul class="py-2 font-medium" role="none">
+            <li>
+              <a
+                href="?locale=en"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                role="menuitem"
+              >
+                <div class="inline-flex items-center">
+                  <img
+                    class="w-5 h-5 mr-2 rounded-full"
+                    src={~p"/images/en.svg"}
+                    width="36"
+                    alt={gettext("English Flag")}
+                  />
+                  <%= gettext("English") %>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="?locale=fr"
+                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                role="menuitem"
+              >
+                <div class="inline-flex items-center">
+                  <img
+                    class="w-5 h-5 mr-2 rounded-full"
+                    src={~p"/images/fr.svg"}
+                    width="36"
+                    alt={gettext("French Flag")}
+                  />
+                  <%= gettext("French") %>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="flex items-center gap-4 font-semibold leading-6 text-zinc-900">
-      <a href="https://twitter.com/elixirphoenix" class="hover:text-zinc-700">
-        @elixirphoenix
-      </a>
-      <a href="https://github.com/phoenixframework/phoenix" class="hover:text-zinc-700">
-        GitHub
-      </a>
-      <a
-        href="https://hexdocs.pm/phoenix/overview.html"
-        class="rounded-lg bg-zinc-100 px-2 py-1 hover:bg-zinc-200/80"
-      >
-        Get Started <span aria-hidden="true">&rarr;</span>
-      </a>
-    </div>
-  </div>
+  </nav>
 </header>
 <main class="px-4 py-20 sm:px-6 lg:px-8">
   <div class="mx-auto max-w-2xl">
