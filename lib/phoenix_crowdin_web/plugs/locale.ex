@@ -1,21 +1,15 @@
 defmodule PhoenixCrowdinWeb.Locale do
   alias Plug.Conn
-  @behaviour Plug
-  require Logger
 
   @locales Gettext.known_locales(PhoenixCrowdinWeb.Gettext)
 
-  Logger.info("all locales: #{inspect(Gettext.known_locales(PhoenixCrowdinWeb.Gettext))}")
-  Logger.info("default locale: #{inspect( Gettext.get_locale())}")
   @cookie "PhoenixCrowdinCookie"
   @ten_days 10 * 24 * 60 * 60
 
   defguard known_locale?(locale) when locale in @locales
 
-  @impl Plug
   def init(_opts), do: nil
 
-  @impl Plug
   def call(conn, _opts) do
     locale = fetch_and_set_locale(conn)
 
@@ -24,7 +18,7 @@ defmodule PhoenixCrowdinWeb.Locale do
   end
 
   defp fetch_and_set_locale(conn) do
-    case locale_from_params(conn) || locale_from_cookies(conn) do
+    case locale_from_params(conn) || locale_from_cookies(conn) || locale_from_header(conn) do
       nil ->
         # This will fallback to the default locale set in `config.exs`
         Gettext.get_locale()
@@ -62,5 +56,17 @@ defmodule PhoenixCrowdinWeb.Locale do
 
   defp persist_locale(conn, locale) do
     Conn.put_resp_cookie(conn, @cookie, locale, max_age: @ten_days)
+  end
+
+  defp locale_from_header(conn) do
+    result = Locale.Headers.extract_accept_language(conn)
+
+    Enum.reduce(result, nil, fn locale, acc ->
+      if known_locale?(locale) do
+        locale
+      else
+        acc
+      end
+    end)
   end
 end
