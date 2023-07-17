@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: phoenix-crowdin\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
-"PO-Revision-Date: 2023-07-16 07:03\n"
+"PO-Revision-Date: 2023-07-17 15:26\n"
 
 #: lib/phoenix_crowdin_web/components/core_components.ex:474
 #, elixir-autogen, elixir-format
@@ -74,37 +74,37 @@ msgstr "Framework Phoenix"
 msgid "Source Code"
 msgstr "Code source"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:41
+#: lib/phoenix_crowdin_web/components/layouts/_locale.html.heex:31
 #, elixir-autogen, elixir-format
 msgid "English"
 msgstr "English"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:39
+#: lib/phoenix_crowdin_web/components/layouts/_locale.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "English Flag"
 msgstr "Drapeau Anglais"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:58
+#: lib/phoenix_crowdin_web/components/layouts/_locale.html.heex:48
 #, elixir-autogen, elixir-format
 msgid "French"
 msgstr "Français"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:56
+#: lib/phoenix_crowdin_web/components/layouts/_locale.html.heex:46
 #, elixir-autogen, elixir-format
 msgid "French Flag"
 msgstr "Drapeau Français"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:5
+#: lib/phoenix_crowdin_web/components/layouts/_header.html.heex:5
 #, elixir-autogen, elixir-format
 msgid "Homepage Logo"
 msgstr "Logo de la page d'accueil"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:20
+#: lib/phoenix_crowdin_web/components/layouts/_locale.html.heex:10
 #, elixir-autogen, elixir-format
 msgid "Languages"
 msgstr "Langues"
 
-#: lib/phoenix_crowdin_web/components/layouts/app.html.heex:7
+#: lib/phoenix_crowdin_web/components/layouts/_header.html.heex:7
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Phoenix & Crowdin"
 msgstr "Phoenix et Crowdin"
@@ -113,4 +113,74 @@ msgstr "Phoenix et Crowdin"
 #, elixir-autogen, elixir-format, fuzzy
 msgid "Guides & Docs"
 msgstr "Tutoriels et Docs"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:10
+#, elixir-autogen, elixir-format
+msgid "Don't have an account?"
+msgstr "Vous n'avez pas de compte ?"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:19
+#, elixir-autogen, elixir-format
+msgid "Email"
+msgstr "Adresse courriel"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:25
+#, elixir-autogen, elixir-format
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:23
+#, elixir-autogen, elixir-format
+msgid "Keep me logged in"
+msgstr "Rester connecté(e)"
+
+#: lib/phoenix_crowdin_web/components/layouts/_account.html.heex:37
+#, elixir-autogen, elixir-format
+msgid "Log in"
+msgstr "Se connecter"
+
+#: lib/phoenix_crowdin_web/components/layouts/_account.html.heex:20
+#, elixir-autogen, elixir-format
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:20
+#, elixir-autogen, elixir-format
+msgid "Password"
+msgstr "Mot de passe"
+
+#: lib/phoenix_crowdin_web/components/layouts/_account.html.heex:29
+#, elixir-autogen, elixir-format
+msgid "Register"
+msgstr "Registrer"
+
+#: lib/phoenix_crowdin_web/components/layouts/_account.html.heex:11
+#, elixir-autogen, elixir-format
+msgid "Settings"
+msgstr "Réglages"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:30
+#, elixir-autogen, elixir-format
+msgid "Sign in"
+msgstr "Connexion"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:8
+#, elixir-autogen, elixir-format
+msgid "Sign in to account"
+msgstr "Se connecter à un compte"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:12
+#, elixir-autogen, elixir-format
+msgid "Sign up"
+msgstr "S'inscrire"
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:29
+#, elixir-autogen, elixir-format
+msgid "Signing in..."
+msgstr "Connexion en cours..."
+
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:14
+#, elixir-autogen, elixir-format
+msgid "for an account now."
+msgstr "pour un compte maintenant."
 
