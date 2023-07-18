@@ -6,8 +6,8 @@ defmodule PhoenixCrowdinWeb.UserSettingsLive do
   def render(assigns) do
     ~H"""
     <.header class="text-center">
-      Account Settings
-      <:subtitle>Manage your account email address and password settings</:subtitle>
+      <%= gettext("Account Settings") %>
+      <:subtitle><%= gettext("Manage your account email address and password settings") %></:subtitle>
     </.header>
 
     <div class="space-y-12 divide-y">
@@ -29,7 +29,7 @@ defmodule PhoenixCrowdinWeb.UserSettingsLive do
             required
           />
           <:actions>
-            <.button phx-disable-with="Changing...">Change Email</.button>
+            <.button phx-disable-with="Changing..."><%= gettext("Change Email") %></.button>
           </:actions>
         </.simple_form>
       </div>
@@ -53,19 +53,19 @@ defmodule PhoenixCrowdinWeb.UserSettingsLive do
           <.input
             field={@password_form[:password_confirmation]}
             type="password"
-            label="Confirm new password"
+            label={gettext("Confirm new password")}
           />
           <.input
             field={@password_form[:current_password]}
             name="current_password"
             type="password"
-            label="Current password"
+            label={gettext("Current password")}
             id="current_password_for_password"
             value={@current_password}
             required
           />
           <:actions>
-            <.button phx-disable-with="Changing...">Change Password</.button>
+            <.button phx-disable-with="Changing..."><%= gettext("Change Password") %></.button>
           </:actions>
         </.simple_form>
       </div>
