@@ -54,6 +54,7 @@ defmodule PhoenixCrowdinWeb do
       use Phoenix.LiveView,
         layout: {PhoenixCrowdinWeb.Layouts, :app}
 
+      on_mount PhoenixCrowdinWeb.RestoreLocale
       unquote(html_helpers())
     end
   end
@@ -97,6 +98,7 @@ defmodule PhoenixCrowdinWeb do
 
   def verified_routes do
     quote do
+      import PhoenixCrowdinWeb.Gettext
       use Phoenix.VerifiedRoutes,
         endpoint: PhoenixCrowdinWeb.Endpoint,
         router: PhoenixCrowdinWeb.Router,

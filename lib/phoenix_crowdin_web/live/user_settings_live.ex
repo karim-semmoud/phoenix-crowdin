@@ -86,7 +86,10 @@ defmodule PhoenixCrowdinWeb.UserSettingsLive do
     {:ok, push_navigate(socket, to: ~p"/users/settings")}
   end
 
-  def mount(_params, _session, socket) do
+  def mount(_params, %{"locale_cookie" => locale_cookie}, socket) do
+
+    Gettext.put_locale(PhoenixCrowdinWeb.Gettext, locale_cookie)
+
     user = socket.assigns.current_user
     email_changeset = Accounts.change_user_email(user)
     password_changeset = Accounts.change_user_password(user)

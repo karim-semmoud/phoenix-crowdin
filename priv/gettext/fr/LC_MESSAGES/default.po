@@ -114,22 +114,22 @@ msgstr "Phoenix et Crowdin"
 msgid "Guides & Docs"
 msgstr "Tutoriels et Docs"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:10
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:12
 #, elixir-autogen, elixir-format
 msgid "Don't have an account?"
 msgstr "Vous n'avez pas de compte ?"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:19
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:21
 #, elixir-autogen, elixir-format
 msgid "Email"
 msgstr "Adresse courriel"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:25
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:27
 #, elixir-autogen, elixir-format
 msgid "Forgot your password?"
 msgstr "Mot de passe oublié ?"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:23
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:25
 #, elixir-autogen, elixir-format
 msgid "Keep me logged in"
 msgstr "Rester connecté(e)"
@@ -144,7 +144,7 @@ msgstr "Se connecter"
 msgid "Log out"
 msgstr "Se déconnecter"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:20
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:22
 #, elixir-autogen, elixir-format
 msgid "Password"
 msgstr "Mot de passe"
@@ -159,28 +159,27 @@ msgstr "Registrer"
 msgid "Settings"
 msgstr "Réglages"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:30
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:32
 #, elixir-autogen, elixir-format
 msgid "Sign in"
 msgstr "Connexion"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:8
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:10
 #, elixir-autogen, elixir-format
 msgid "Sign in to account"
 msgstr "Se connecter à un compte"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:12
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:14
 #, elixir-autogen, elixir-format
 msgid "Sign up"
 msgstr "S'inscrire"
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:29
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:31
 #, elixir-autogen, elixir-format
 msgid "Signing in..."
 msgstr "Connexion en cours..."
 
-#: lib/phoenix_crowdin_web/live/user_login_live.ex:14
+#: lib/phoenix_crowdin_web/live/user_login_live.ex:16
 #, elixir-autogen, elixir-format
 msgid "for an account now."
 msgstr "pour un compte maintenant."
-

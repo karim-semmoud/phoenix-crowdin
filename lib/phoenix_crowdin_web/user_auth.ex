@@ -3,6 +3,7 @@ defmodule PhoenixCrowdinWeb.UserAuth do
 
   import Plug.Conn
   import Phoenix.Controller
+  require Logger
 
   alias PhoenixCrowdin.Accounts
 
@@ -60,9 +61,13 @@ defmodule PhoenixCrowdinWeb.UserAuth do
   #     end
   #
   defp renew_session(conn) do
+    locale_cookie = Map.get(conn.cookies, "PhoenixCrowdinCookie")
+    Logger.info("User Live Local :#{locale_cookie}")
     conn
     |> configure_session(renew: true)
     |> clear_session()
+    |> put_session(:locale_cookie, locale_cookie)
+
   end
 
   @doc """
@@ -224,4 +229,9 @@ defmodule PhoenixCrowdinWeb.UserAuth do
   defp maybe_store_return_to(conn), do: conn
 
   defp signed_in_path(_conn), do: ~p"/"
+
+  defp put_locale_cookie_in_session(conn, locale_cookie) do
+    conn
+    |> put_session(:locale_cookie, locale_cookie)
+  end
 end

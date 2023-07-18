@@ -1,6 +1,6 @@
 defmodule PhoenixCrowdinWeb.UserSessionController do
   use PhoenixCrowdinWeb, :controller
-
+  require Logger
   alias PhoenixCrowdin.Accounts
   alias PhoenixCrowdinWeb.UserAuth
 
@@ -15,6 +15,8 @@ defmodule PhoenixCrowdinWeb.UserSessionController do
   end
 
   def create(conn, params) do
+    locale_cookie = Map.get(conn.cookies, "PhoenixCrowdinCookie")
+    Logger.info("ControllerLocal:#{locale_cookie}")
     create(conn, params, "Welcome back!")
   end
 

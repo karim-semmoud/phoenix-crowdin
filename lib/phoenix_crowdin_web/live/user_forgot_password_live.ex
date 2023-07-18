@@ -27,7 +27,10 @@ defmodule PhoenixCrowdinWeb.UserForgotPasswordLive do
     """
   end
 
-  def mount(_params, _session, socket) do
+  def mount(_params, %{"locale_cookie" => locale_cookie}, socket) do
+
+    Gettext.put_locale(PhoenixCrowdinWeb.Gettext, locale_cookie)
+
     {:ok, assign(socket, form: to_form(%{}, as: "user"))}
   end
 
