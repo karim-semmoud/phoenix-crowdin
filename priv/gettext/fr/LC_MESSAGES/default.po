@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: phoenix-crowdin\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
-"PO-Revision-Date: 2023-07-18 10:11\n"
+"PO-Revision-Date: 2023-07-18 10:15\n"
 
 #: lib/phoenix_crowdin_web/components/core_components.ex:474
 #, elixir-autogen, elixir-format
@@ -152,7 +152,7 @@ msgstr "Mot de passe"
 #: lib/phoenix_crowdin_web/components/layouts/_account.html.heex:29
 #, elixir-autogen, elixir-format
 msgid "Register"
-msgstr "Registrer"
+msgstr "S'inscrire"
 
 #: lib/phoenix_crowdin_web/components/layouts/_account.html.heex:11
 #, elixir-autogen, elixir-format
