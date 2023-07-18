@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: phoenix-crowdin\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
-"PO-Revision-Date: 2023-07-18 10:04\n"
+"PO-Revision-Date: 2023-07-18 10:06\n"
 
 #: lib/phoenix_crowdin_web/components/core_components.ex:474
 #, elixir-autogen, elixir-format
@@ -187,30 +187,30 @@ msgstr "pour un compte maintenant."
 #: lib/phoenix_crowdin_web/live/user_settings_live.ex:9
 #, elixir-autogen, elixir-format
 msgid "Account Settings"
-msgstr ""
+msgstr "Paramètres du compte"
 
 #: lib/phoenix_crowdin_web/live/user_settings_live.ex:32
 #, elixir-autogen, elixir-format
 msgid "Change Email"
-msgstr ""
+msgstr "Changer l'adresse e-mail"
 
 #: lib/phoenix_crowdin_web/live/user_settings_live.ex:68
 #, elixir-autogen, elixir-format
 msgid "Change Password"
-msgstr ""
+msgstr "Changer de mot de passe"
 
 #: lib/phoenix_crowdin_web/live/user_settings_live.ex:56
 #, elixir-autogen, elixir-format
 msgid "Confirm new password"
-msgstr ""
+msgstr "Confirmer le nouveau mot de passe"
 
 #: lib/phoenix_crowdin_web/live/user_settings_live.ex:62
 #, elixir-autogen, elixir-format
 msgid "Current password"
-msgstr ""
+msgstr "Mot de passe actuel"
 
 #: lib/phoenix_crowdin_web/live/user_settings_live.ex:10
 #, elixir-autogen, elixir-format
 msgid "Manage your account email address and password settings"
-msgstr ""
+msgstr "Gérer les paramètres de votre adresse e-mail et mot de passe de votre compte"
 
