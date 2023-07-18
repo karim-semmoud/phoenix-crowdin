@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: phoenix-crowdin\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language-Team: French\n"
-"PO-Revision-Date: 2023-07-17 15:26\n"
+"PO-Revision-Date: 2023-07-18 10:03\n"
 
 #: lib/phoenix_crowdin_web/components/core_components.ex:474
 #, elixir-autogen, elixir-format
@@ -183,3 +183,4 @@ msgstr "Connexion en cours..."
 #, elixir-autogen, elixir-format
 msgid "for an account now."
 msgstr "pour un compte maintenant."
+
