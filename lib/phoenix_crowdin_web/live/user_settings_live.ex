@@ -1,5 +1,6 @@
 defmodule PhoenixCrowdinWeb.UserSettingsLive do
   use PhoenixCrowdinWeb, :live_view
+  import PhoenixCrowdinWeb.Gettext
 
   alias PhoenixCrowdin.Accounts
 

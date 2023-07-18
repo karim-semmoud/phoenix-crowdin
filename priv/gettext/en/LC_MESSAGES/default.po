@@ -183,32 +183,32 @@ msgstr ""
 msgid "for an account now."
 msgstr ""
 
-#: lib/phoenix_crowdin_web/live/user_settings_live.ex:9
+#: lib/phoenix_crowdin_web/live/user_settings_live.ex:10
 #, elixir-autogen, elixir-format
 msgid "Account Settings"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/live/user_settings_live.ex:32
+#: lib/phoenix_crowdin_web/live/user_settings_live.ex:33
 #, elixir-autogen, elixir-format
 msgid "Change Email"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/live/user_settings_live.ex:68
+#: lib/phoenix_crowdin_web/live/user_settings_live.ex:69
 #, elixir-autogen, elixir-format
 msgid "Change Password"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/live/user_settings_live.ex:56
+#: lib/phoenix_crowdin_web/live/user_settings_live.ex:57
 #, elixir-autogen, elixir-format
 msgid "Confirm new password"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/live/user_settings_live.ex:62
+#: lib/phoenix_crowdin_web/live/user_settings_live.ex:63
 #, elixir-autogen, elixir-format
 msgid "Current password"
 msgstr ""
 
-#: lib/phoenix_crowdin_web/live/user_settings_live.ex:10
+#: lib/phoenix_crowdin_web/live/user_settings_live.ex:11
 #, elixir-autogen, elixir-format
 msgid "Manage your account email address and password settings"
 msgstr ""
